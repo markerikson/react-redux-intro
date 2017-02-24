@@ -1,0 +1,7 @@
+    array, bool, func, number, object,
+    string, node, element, any,
+    instanceOf(Message),
+    oneOf(['News', 'Photos']),
+    oneOfType([]), arrayOf(number),
+    objectOf(number), shape({}),
+    customProp: function(props, name, _) {}
